@@ -27,13 +27,10 @@ justify-content: center;
 }
 
 
-h4, p {
-font-family: 'Akaya Kanadaka', cursive;
-font-size: 30px;
-line-height: 37px;
-display: flex;
-align-items: flex-end;
-text-align: center;
+ h1,  p {
+font-family: 'Akaya Kanadaka', cursive !important;
+font-size: 3rem;
+line-height: 2rem;
 color: #FFFFFF;
 }
 
@@ -51,6 +48,9 @@ width: 296px;
 height: 120px;
 left: 12px;
 }
+.logo p {
+  color: black !important;
+}
 
 .menu{
 position: absolute;
@@ -60,4 +60,43 @@ left: 397px;
 display: flex;
 justify-content: space-between;
 align-items: center;
+}
+
+.menuBtn{
+  width: 11rem;
+  height: 6rem;
+  background: #E926A6 !important;
+  display: flex;
+  text-align: center !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 50em 21em !important;
+}
+
+.menu-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.basket-login{
+  width: 3em !important;
+}
+
+.nars{
+background-image: url("images/nars.jpg") ;
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+width: 1440px;
+height: 826px;
+left: 0px;
+top: 193px;
+
+}
+.narsText {
+margin: 15em 37em 18em 5em;
+font-family: Georgia, serif !important;
+text-shadow: 3px 3px #FF0000;
+color: #E926A6 ;
 }
