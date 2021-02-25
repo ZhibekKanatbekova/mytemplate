@@ -1,0 +1,63 @@
+body {
+position: relative;
+width: 1440px;
+height: 2013px;
+background: rgba(235, 14, 186, 0.11);
+
+}
+
+header{
+  position: absolute;
+width: 1440px;
+height: 193px;
+left: 0px;
+top: 0px;
+}
+
+.newspart{
+position: absolute;
+width: 1440px;
+height: 73px;
+left: 0px;
+top: 0px;
+background: #E926A6;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+h4, p {
+font-family: 'Akaya Kanadaka', cursive;
+font-size: 30px;
+line-height: 37px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+color: #FFFFFF;
+}
+
+nav{
+position: absolute;
+width: 1440px;
+height: 120px;
+left: 0px;
+top: 73px;
+background: #FDE0F3
+}
+.logo{
+position: absolute;
+width: 296px;
+height: 120px;
+left: 12px;
+}
+
+.menu{
+position: absolute;
+width: 1024px;
+height: 92px;
+left: 397px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
